@@ -1,6 +1,6 @@
 var video;
 
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
 	console.log("Good job opening the window")
 	video = document.querySelector("#player1")
 	video.autoplay = false;
